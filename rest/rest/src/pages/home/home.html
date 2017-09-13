@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      List of Albums
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list no-lines>
+    <ion-item *ngFor="let item of peoples">
+      {{item.id}} - {{item.title }}
+    </ion-item>
+  </ion-list>
+</ion-content>
